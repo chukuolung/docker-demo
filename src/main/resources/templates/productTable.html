@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>中華電信網路費率牌價</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<h1>網路費率牌價</h1>
+<table>
+    <thead>
+    <tr>
+        <th>最高速率 (下載/上傳)</th>
+        <th>上網費率牌價 (元/月)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="rate : ${rates}">
+        <td th:text="${rate[0]}"></td>
+        <td th:text="${rate[1]}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
