@@ -1,4 +1,4 @@
-這裡分享一個簡單的Docker應用案例，旨在展示如何使用Docker來查詢商品項目。這個案例將使用一個簡單的Flask應用來提供API，讓使用者能夠查詢商品的詳細信息。
+裡分享一個簡單的Docker應用案例，旨在展示如何使用Docker來查詢商品項目。這個案例將利用Java語言的Spring Boot框架來提供API，讓使用者能夠查詢商品的詳細資訊。
 ### 步驟一：建立Spring Boot應用
 
 首先，我們需要創建一個Spring Boot應用。可以使用Spring Initializr（[https://start.spring.io/）來生成一個新的Spring](https://start.spring.io/%EF%BC%89%E4%BE%86%E7%94%9F%E6%88%90%E4%B8%80%E5%80%8B%E6%96%B0%E7%9A%84Spring) Boot項目。
