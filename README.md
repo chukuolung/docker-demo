@@ -87,7 +87,7 @@ $ docker build -t docker-demo .
 $ docker run -d -p 8090:8090 --name docker-demo-app docker-demo
 ```
 
-這樣，Spring Boot應用就會在容器中運行，並且映射到主機的8080端口。
+這樣，Spring Boot應用就會在容器中運行，並且映射到主機的8090端口。
 
 ### 步驟六：查詢商品項目
 

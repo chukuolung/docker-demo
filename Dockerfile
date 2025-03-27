@@ -7,7 +7,7 @@ WORKDIR /app
 # 複製構建的JAR文件到容器中
 COPY target/docker-demo-0.0.1-SNAPSHOT.jar app.jar
 
-# 開放8080端口
+# 開放8090端口
 EXPOSE 8090
 
 # 設定容器啟動時執行的命令
