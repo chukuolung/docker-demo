@@ -84,7 +84,7 @@ $ docker build -t docker-demo .
 構建完成後，可以使用以下命令運行Docker容器：
 
 ```bash
-$ docker run -d -p 8090:8090 --name docker-demo-app docker-demo
+$ docker run -d -p 8080:8080 --name docker-demo-app docker-demo
 ```
 
 這樣，Spring Boot應用就會在容器中運行，並且映射到主機的8090端口。
