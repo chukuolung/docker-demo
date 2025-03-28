@@ -94,7 +94,7 @@ $ docker run -d -p 8080:8080 --name docker-demo-app docker-demo
 現在，使用者可以通過瀏覽器或API客戶端（如Postman）訪問以下URL來查詢商品項目：
 
 ```
-http://localhost:8090
+http://localhost:8080
 ```
 
 這將返回一個表格形式的商品列表，例如：
